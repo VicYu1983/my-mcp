@@ -1,0 +1,35 @@
+{
+  "_readme": [
+    "設備別名表：讓模型用「一號機」這種名稱指定目標，不必每次輸入 IP。",
+    "framer: tcp = Modbus TCP (MBAP)，rtu = Modbus RTU over TCP。",
+    "此檔內的設備視為已信任（與 whitelist 同等效力），因為檔案由你親自維護。",
+    "unit 省略時預設 1。",
+    "「本機模擬器」可用 scripts/modbus_sim.py 啟動，等有實機 PLC 時再取代它。"
+  ],
+  "devices": [
+    {
+      "alias": "本機模擬器",
+      "host": "127.0.0.1",
+      "port": 5020,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "scripts/modbus_sim.py（TCP）"
+    },
+    {
+      "alias": "本機模擬器-RTU",
+      "host": "127.0.0.1",
+      "port": 5021,
+      "unit": 1,
+      "framer": "rtu",
+      "note": "scripts/modbus_sim.py --framer rtu"
+    },
+    {
+      "alias": "本機10502",
+      "host": "127.0.0.1",
+      "port": 10502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "Modbux.exe 站號1 TCP 測試設備（coil 16、17 為 ON）"
+    }
+  ]
+}

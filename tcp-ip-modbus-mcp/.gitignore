@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+logs/*.jsonl
+config/whitelist.json.tmp
+dist/
+build/
+*.egg-info/

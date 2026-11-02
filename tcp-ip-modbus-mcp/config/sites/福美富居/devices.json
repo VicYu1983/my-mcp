@@ -1,0 +1,260 @@
+{
+  "_readme": [
+    "此案場的設備別名表：讓模型用「一號機」這種名稱指定目標。",
+    "framer: tcp = Modbus TCP (MBAP)，rtu = Modbus RTU over TCP。"
+  ],
+  "devices": [
+    {
+      "alias": "R1F弱電箱",
+      "host": "192.168.5.10",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組1｜E101-ETH-IO16R｜BA位置:13F 弱電箱｜DI14/16 DO0/16｜wifi沒有接到｜⚠️位置兩表不一致（IP表 R1F弱電箱 / 點位表 13F 弱電箱）",
+      "data_type": null
+    },
+    {
+      "alias": "B4F-EPF",
+      "host": "192.168.5.11",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組2｜E101-ETH-IO16R｜BA位置:B4F-EPF｜DI10/16 DO0/16｜找不到位置",
+      "data_type": null
+    },
+    {
+      "alias": "B4F-PP1",
+      "host": "192.168.5.12",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組3｜E101-ETH-IO5R｜BA位置:B4F-PP1｜DI5/5 DO0/5｜BA模組已送電，已接網路，點位資料有，wifi無法聯通",
+      "data_type": null
+    },
+    {
+      "alias": "B4F-PS",
+      "host": "192.168.5.13",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組4｜E101-ETH-IO5R｜BA位置:B4F-PS｜DI5/5 DO0/5｜成功接到modbus",
+      "data_type": null
+    },
+    {
+      "alias": "B4F-PW",
+      "host": "192.168.5.14",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組5｜E101-ETH-IO16R｜BA位置:B4F-PW｜DI11/16 DO0/16｜成功接到modbus",
+      "data_type": null
+    },
+    {
+      "alias": "B4F-PP2",
+      "host": "192.168.5.15",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組6｜E101-ETH-IO16R｜BA位置:B4F-PP2｜DI10/16 DO0/16｜成功接到modbus",
+      "data_type": null
+    },
+    {
+      "alias": "B4F弱電箱",
+      "host": "192.168.5.16",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組7｜E101-ETH-IO8RA｜BA位置:B4F｜DI7/8 DO0/8｜找不到位置",
+      "data_type": null
+    },
+    {
+      "alias": "B3F弱電箱",
+      "host": "192.168.5.17",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組8｜E101-ETH-IO8RA｜BA位置:未填｜DI7/8 DO0/8｜找不到位置",
+      "data_type": null
+    },
+    {
+      "alias": "B2F弱電箱",
+      "host": "192.168.5.18",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組9｜E101-ETH-IO8RA｜BA位置:B2F｜DI8/8 DO0/8｜找不到位置",
+      "data_type": null
+    },
+    {
+      "alias": "B2F-GP-GPA",
+      "host": "192.168.5.19",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組10｜E101-ETH-IO8RA｜BA位置:B2F-GPGPA｜DI8/8 DO0/8｜找不到位置",
+      "data_type": null
+    },
+    {
+      "alias": "B1F弱電箱",
+      "host": "192.168.5.20",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組11｜E101-ETH-IO16R｜BA位置:B1F｜DI12/16 DO0/16｜成功接到modbus",
+      "data_type": null
+    },
+    {
+      "alias": "1F弱電箱",
+      "host": "192.168.5.21",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組12｜E101-ETH-I32｜BA位置:1F｜DI17/32 DO0/0｜找不到位置",
+      "data_type": null
+    },
+    {
+      "alias": "2F弱電箱",
+      "host": "192.168.5.22",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組13｜E101-ETH-IO5R｜BA位置:2F｜DI4/5 DO0/5｜BA模組沒有送電，沒有接網路，送電后測試點位資料有，不過需要設置5的網段才能連，看樣子是還沒有接回我們的L3",
+      "data_type": null
+    },
+    {
+      "alias": "3F弱電箱",
+      "host": "192.168.5.23",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組14｜E101-ETH-IO5R｜BA位置:3F｜DI5/5 DO0/5｜BA模組已送電，已接網路，點位資料有，wifi無法聯通",
+      "data_type": null
+    },
+    {
+      "alias": "4F弱電箱",
+      "host": "192.168.5.24",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組15｜E101-ETH-IO8RA｜BA位置:4F｜DI8/8 DO0/8｜BA模組已送電，已接網路，點位資料有，wifi無法聯通",
+      "data_type": null
+    },
+    {
+      "alias": "6F弱電箱",
+      "host": "192.168.5.25",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組16｜E101-ETH-IO8RA｜BA位置:6F｜DI8/8 DO0/8｜BA模組已送電，已接網路，點位資料有，wifi無法聯通",
+      "data_type": null
+    },
+    {
+      "alias": "8F弱電箱",
+      "host": "192.168.5.26",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組17｜E101-ETH-IO8RA｜BA位置:9F｜DI8/8 DO0/8｜借不到wifi｜⚠️位置兩表不一致（IP表 8F弱電箱 / 點位表 9F）",
+      "data_type": null
+    },
+    {
+      "alias": "10F弱電箱",
+      "host": "192.168.5.27",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組18｜E101-ETH-IO8RA｜BA位置:10F｜DI8/8 DO0/8｜BA模組已送電，已接網路，點位資料有，wifi無法聯通",
+      "data_type": null
+    },
+    {
+      "alias": "12F弱電箱",
+      "host": "192.168.5.28",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組19｜E101-ETH-IO8RA｜BA位置:12F｜DI8/8 DO0/8｜BA模組已送電，已接網路，點位資料有，wifi無法聯通",
+      "data_type": null
+    },
+    {
+      "alias": "B4F-PSFB4-1",
+      "host": "192.168.5.29",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組20｜E101-ETH-IO16R｜BA位置:B4F-PSFB4｜DI14/16 DO7/16｜沒有安裝",
+      "data_type": null
+    },
+    {
+      "alias": "B4F-PSFB4-2",
+      "host": "192.168.5.30",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組21｜E101-ETH-IO8RA｜BA位置:B4F-PSFB4｜DI6/8 DO3/8｜沒送電，感覺沒完成",
+      "data_type": null
+    },
+    {
+      "alias": "B3F-PSFB3-1",
+      "host": "192.168.5.31",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組22｜E101-ETH-IO16R｜BA位置:B3F-PSFB3｜DI14/16 DO7/16｜BA模組已送電，已接網路，DIDO感覺還沒完成，wifi無法聯通｜⚠️DO 名稱誤植 B4F，實際為 B3F",
+      "data_type": null
+    },
+    {
+      "alias": "B3F-PSFB3-2",
+      "host": "192.168.5.32",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組23｜E101-ETH-IO8RA｜BA位置:B3F-PSFB3｜DI6/8 DO3/8｜移除｜⚠️標記移除",
+      "data_type": null
+    },
+    {
+      "alias": "B2F-PSFB2-1",
+      "host": "192.168.5.33",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組24｜E101-ETH-IO16R｜BA位置:未填｜DI14/16 DO7/16｜移除｜⚠️標記移除",
+      "data_type": null
+    },
+    {
+      "alias": "B2F-PSFB2-2",
+      "host": "192.168.5.34",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組25｜E101-ETH-IO8RA｜BA位置:B2F-PSFB2｜DI6/8 DO3/8｜BA模組已送電，已接網路，DIDO感覺還沒完成，wifi無法聯通",
+      "data_type": null
+    },
+    {
+      "alias": "B1F-PSFB1-1",
+      "host": "192.168.5.35",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組26｜E101-ETH-IO8RA｜BA位置:B1F-PSFB1｜DI6/8 DO3/8｜BA模組已送電，已接網路，DIDO感覺還沒完成，wifi無法聯通",
+      "data_type": null
+    },
+    {
+      "alias": "B1F-PSFB1-2",
+      "host": "192.168.5.36",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組27｜E101-ETH-IO16R｜BA位置:B1F-PSFB1｜DI12/16 DO6/16｜這臺移除｜⚠️標記移除",
+      "data_type": null
+    },
+    {
+      "alias": "2F-PF",
+      "host": "192.168.5.37",
+      "port": 502,
+      "unit": 1,
+      "framer": "tcp",
+      "note": "模組28｜E101-ETH-IO8RA｜BA位置:2F-PF｜DI6/8 DO0/8｜還需要工班安裝",
+      "data_type": null
+    }
+  ]
+}

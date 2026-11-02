@@ -1,0 +1,22 @@
+{
+  "_readme": [
+    "白名單：只有符合以下項目的目標才能被探測 / 讀寫。",
+    "target 可為單一 IP、CIDR 網段或 hostname。",
+    "ports 省略 = 不限埠號；protocol 省略 = 不分協議。",
+    "本檔由 whitelist_add / whitelist_remove 維護，也可手動編輯（server 會熱重載）。"
+  ],
+  "entries": [
+    {
+      "target": "127.0.0.1",
+      "ports": [
+        502,
+        5020,
+        10502
+      ],
+      "protocol": null,
+      "note": "本機；10502 = 站號1 TCP 測試用（2026-10-26 新增）",
+      "added_at": "2026-10-26T13:09:08+08:00",
+      "added_by": "whitelist_add (consent: 新增白名單，127.0.0.1， port：10502. 站號1， 用TCP的方式連接。)"
+    }
+  ]
+}

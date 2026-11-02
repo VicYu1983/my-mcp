@@ -1,0 +1,16 @@
+{
+  "_readme": [
+    "案場索引：每個案場有自己獨立的白名單與設備表（config/sites/<案場>/）。",
+    "active = 目前作用中的案場；空字串代表用根目錄的 whitelist.json / devices.json。",
+    "本檔由 site_create / site_use / site_delete 維護，也可手動編輯。"
+  ],
+  "active": "",
+  "sites": [
+    {
+      "id": "福美富居",
+      "name": "福美富居",
+      "note": "祥富龍(福美富居) BA 點位表 20260527 版；28 台 E101 模組 192.168.5.10–.37，unit 1 / port 502 / TCP",
+      "created_at": "2026-10-26T13:38:36+08:00"
+    }
+  ]
+}

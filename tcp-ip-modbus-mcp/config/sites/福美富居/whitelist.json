@@ -1,0 +1,19 @@
+{
+  "_readme": [
+    "此案場的白名單：只有符合以下項目的目標才能被探測 / 讀寫。",
+    "target 可為單一 IP、CIDR 網段或 hostname。",
+    "ports 省略 = 不限埠號；protocol 省略 = 不分協議。"
+  ],
+  "entries": [
+    {
+      "target": "192.168.5.0/24",
+      "ports": [
+        502
+      ],
+      "protocol": "tcp",
+      "note": "福美富居 BA 模組網段（實機 .10–.37）",
+      "added_at": "2026-10-26T13:38:36+08:00",
+      "added_by": "whitelist_add (consent: unit ID:1, port:502沒錯。沒關係，這份是我們測試用，你先試著導入案場和白名單，我們對一下有沒有正確就好，不檢查)"
+    }
+  ]
+}
