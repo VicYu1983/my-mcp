@@ -1,0 +1,31 @@
+{
+  "name": "google-maps-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Google Maps Platform (Places and Routes APIs)",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "google-maps-mcp": "dist/index.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/index.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  }
+}
